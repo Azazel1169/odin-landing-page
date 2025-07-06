@@ -37,6 +37,8 @@ body {
   color: #3b82f6;
 }
 
+
+
 /* Hero Styles */
 #hero {
   display: flex;
@@ -45,4 +47,53 @@ body {
   background: #1f2937;
   padding: 60px 8vw;
   gap: 48px;
+}
+
+.hero-left {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.hero-left h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin: 0;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+}
+
+#hero-signup {
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 32px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 18px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+#hero-signup:hover {
+  background: #2563eb;
+}
+
+.hero-right #hero-pic {
+  background: #6d747d;
+  color: #e5e7eb;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 8px
 }
