@@ -138,3 +138,34 @@ body {
   font-size: 16px;
   margin-top: 0;
 }
+
+/* Quotes Section */
+#quote-section {
+  background: #e5e7eb;
+  padding: 64px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 300;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 900;
+  color: #1f2937;
+  margin: 0;
+}
